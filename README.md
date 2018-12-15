@@ -8,10 +8,10 @@ Create Telegram event listener
 
 ```scala
 import akka.actor.{Actor, ActorRef, Props}
-import io.teinnsei.telegrambot4s.message.common.command.SendMessage
-import io.teinnsei.telegrambot4s.message.common.document.{InlineKeyboardButton, InlineKeyboardMarkup}
-import io.teinnsei.telegrambot4s.message.event.document.NewMessage
-import io.teinnsei.telegrambot4s.util.CommonImplicit._
+import io.halahutskyi.telegrambot4s.message.common.command.SendMessage
+import io.halahutskyi.telegrambot4s.message.common.document.{InlineKeyboardButton, InlineKeyboardMarkup}
+import io.halahutskyi.telegrambot4s.message.event.document.NewMessage
+import io.halahutskyi.telegrambot4s.util.CommonImplicit._
 
 object NewMessageListener {
 
@@ -53,9 +53,9 @@ Create runner
 
 ```scala
 import akka.actor.{ActorRef, ActorSystem}
-import io.teinnsei.telegrambot4s.message.event.command.GetUpdates
-import io.teinnsei.telegrambot4s.message.event.document.NewMessage
-import io.teinnsei.telegrambot4s.core._
+import io.halahutskyi.telegrambot4s.message.event.command.GetUpdates
+import io.halahutskyi.telegrambot4s.message.event.document.NewMessage
+import io.halahutskyi.telegrambot4s.core._
 
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits._
