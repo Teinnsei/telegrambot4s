@@ -14,9 +14,8 @@
  * limitations under the License.
  */
 
-package io.halahutskyi.telegrambot4s.message.common.command
+package io.halahutskyi.telegrambot4s.message.common.document
 
-import io.halahutskyi.telegrambot4s.message.common.document.{Location, User}
 import io.halahutskyi.telegrambot4s.message.TelegramCommand
 
 final case class InlineQuery(id: String,

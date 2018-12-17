@@ -1,8 +1,12 @@
 name := "telegrambot4s"
 
-version := "0.1"
+version := "1.0-RC2"
 
 scalaVersion := "2.12.7"
+
+useGpg := true
+
+updateOptions := updateOptions.value.withGigahorse(false)
 
 val akkaVersion = "2.5.18"
 val asyncHttpClientVersion = "2.6.0"
