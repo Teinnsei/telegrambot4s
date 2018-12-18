@@ -4,6 +4,12 @@
 
 ## How to usage
 
+Add dependency into sbt
+
+```sbtshell
+libraryDependencies += "io.halahutskyi.telegrambot4s" %% "telegrambot4s" % "1.0-RC2"
+```
+
 Create Telegram event listener
 
 ```scala
